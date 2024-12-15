@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    {% load static %}
+    <title>Video Games</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'games/style.css' %}">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to the Video Game Collection</h1>
+        <a href="{% url 'game_list' %}" class="btn">View Game List</a>
+    </div>
+</body>
+</html>
+
+
